@@ -1,0 +1,23 @@
+# proot rootfs（体积巨大，不要提交）
+rootfs/
+proot-rootfs/
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.zip
+
+# 运行产物
+*.log
+*.pid
+.keepalive/
+runs/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 临时
+tmp/
+.DS_Store
